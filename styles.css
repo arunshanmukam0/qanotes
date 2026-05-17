@@ -500,19 +500,15 @@ kbd {
 }
 
 .about-avatar {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   background: linear-gradient(135deg, #dbeafe, #bfdbfe);
   border: 3px solid var(--accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--accent);
+  object-fit: cover;
+  object-position: center top;
   flex-shrink: 0;
-  letter-spacing: 0.05em;
+  display: block;
 }
 
 .about-name {
@@ -656,13 +652,10 @@ kbd {
   border-radius: 50%;
   background: linear-gradient(135deg, #dbeafe, #bfdbfe);
   border: 2px solid var(--accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--accent);
+  object-fit: cover;
+  object-position: center top;
   flex-shrink: 0;
+  display: block;
 }
 
 .footer-name {
